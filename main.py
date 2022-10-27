@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import os
 import sys
-print(sys.argv)
 directory = sys.argv.pop().strip()
 albums = sys.argv[1:]
 
